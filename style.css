@@ -1,0 +1,103 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    body{font-size: 62.5%;}
+    
+    
+    .bg-img{
+        background-image: url(https://m-cdn.phonearena.com/images/article/143515-wide-two_1200/Apple-tests-adding-news-to-the-native-Weather-app-in-iOS-16.2-Beta.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    
+    
+    .heading{text-align: center;
+    font-family: poppins;
+    color: white;
+    font-size: 5rem;
+    padding: 1rem;}
+    
+    
+    .box{background-image: linear-gradient(#629cb7 , #95b4c6 , #87a5ba);
+    text-align: center;
+    margin: 0 auto;
+    width: 35rem;
+    padding: 1rem;
+    height: 47rem;
+    border: 0.2rem solid white;
+    border-radius: 2rem;
+    margin-bottom: 5rem;}
+    
+    
+    #city{
+        padding: 0.5rem;
+        border: 0;
+        border-radius: 2rem;
+        font-size: 1rem;
+        font-family: poppins;
+    }
+    
+    
+    button{
+        font-family: poppins;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        border: 0;
+        background-color: #2d69a8;
+        color: white;
+        margin: 0.5rem;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    .icon{
+        width: 7rem;
+        margin: 2rem;
+    }
+    
+    
+    
+    
+    .box-content{font-family: poppins;
+    font-size: 1.6rem;
+    color: white;}
+    
+    
+    
+    .flex{display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    }
+    
+    
+    .temp{font-size: 5rem;}
+    
+    .condition{font-size: 2rem;}
+    
+    .location{font-size: 4rem;}
+    
+    
+    .error{text-align: center;
+    margin-top: 50%;}
+    
+    @media(max-width:998px){
+        html{
+            font-size: 55%;
+        }
+    }
+    
+    
+    @media(max-width:768px){
+        html{
+            font-size: 45%;
+        }
+    }
+    
+    
+    
