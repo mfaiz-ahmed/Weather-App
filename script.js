@@ -4,7 +4,7 @@ const weather = document.querySelector(".weather");
 
 
 button.addEventListener("click" , ()=>{
-    axios(`http://api.weatherapi.com/v1/current.json?key=608de1dbc4d647ffa72191655242204&q=${city.value}`)
+    axios(`https://api.weatherapi.com/v1/current.json?key=608de1dbc4d647ffa72191655242204&q=${city.value}`)
 .then((res)=>{
     console.log(res.data);
     weather.innerHTML = `
